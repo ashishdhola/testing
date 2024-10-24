@@ -8,6 +8,7 @@ console.log("Orignal array :", arr);
 for (let i = size - 1; i >= index; i--) {
 
     arr[i + 1] = arr[i];
+    console.log("hello")
 }
 
 arr[index] = element;
